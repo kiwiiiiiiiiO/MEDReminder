@@ -7,25 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66152FE029614EDE00F946C6 /* Elder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66152FDF29614EDE00F946C6 /* Elder.storyboard */; };
+		66152FE229614EEC00F946C6 /* ElderGreeting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66152FE129614EEC00F946C6 /* ElderGreeting.storyboard */; };
+		66152FE6296177EF00F946C6 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66152FE5296177EF00F946C6 /* AlertViewController.swift */; };
+		66152FE82961C9B200F946C6 /* NewMedicine2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66152FE72961C9B200F946C6 /* NewMedicine2Controller.swift */; };
+		66152FEA2962A01900F946C6 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66152FE92962A01900F946C6 /* PersonalViewController.swift */; };
 		66367BC62922822A008924FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66367BC52922822A008924FB /* AppDelegate.swift */; };
 		66367BC82922822A008924FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66367BC72922822A008924FB /* SceneDelegate.swift */; };
 		66367BCA2922822A008924FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66367BC92922822A008924FB /* ViewController.swift */; };
 		66367BCD2922822A008924FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66367BCB2922822A008924FB /* Main.storyboard */; };
-		66367BD02922822A008924FB /* MEDReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66367BCE2922822A008924FB /* MEDReminder.xcdatamodeld */; };
 		66367BD22922822A008924FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66367BD12922822A008924FB /* Assets.xcassets */; };
 		66367BD52922822A008924FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66367BD32922822A008924FB /* LaunchScreen.storyboard */; };
+		6668FEF829604EB400741B9C /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FEF729604EB400741B9C /* Greeting.swift */; };
+		6668FEFC2960831B00741B9C /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FEFB2960831B00741B9C /* Reminder.swift */; };
+		6668FEFE2960832700741B9C /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FEFD2960832700741B9C /* Medicine.swift */; };
+		6668FF052960962100741B9C /* GreetingViewDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF042960962100741B9C /* GreetingViewDiffableDataSource.swift */; };
+		6668FF102960A58000741B9C /* ReminderViewDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF0F2960A58000741B9C /* ReminderViewDiffableDataSource.swift */; };
+		6668FF122960A59500741B9C /* MedicineViewDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF112960A59500741B9C /* MedicineViewDiffableDataSource.swift */; };
+		6668FF1F29613D4E00741B9C /* ElderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF1E29613D4E00741B9C /* ElderTableViewCell.swift */; };
+		6668FF2129613DA400741B9C /* ElderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF2029613DA400741B9C /* ElderTableViewController.swift */; };
+		6668FF2329613E8600741B9C /* Elder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668FF2229613E8600741B9C /* Elder.swift */; };
+		66D466B12934321800A94163 /* Medicine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D466B02934321800A94163 /* Medicine.storyboard */; };
+		66D466B42934329900A94163 /* Reminder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D466B32934329900A94163 /* Reminder.storyboard */; };
+		66D466B6293432B700A94163 /* Greeting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D466B5293432B700A94163 /* Greeting.storyboard */; };
+		66D466B8295AE32000A94163 /* ElderMedicine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D466B7295AE32000A94163 /* ElderMedicine.storyboard */; };
+		66D466BA295B156800A94163 /* NewGreetingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D466B9295B156800A94163 /* NewGreetingController.swift */; };
+		66D466BC295B2A0100A94163 /* NewReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D466BB295B2A0100A94163 /* NewReminderController.swift */; };
+		66D466BE295B2A2600A94163 /* NewMedicineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D466BD295B2A2600A94163 /* NewMedicineController.swift */; };
+		66DD3FE0295B407C00C56D2B /* ElderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DD3FDF295B407C00C56D2B /* ElderController.swift */; };
+		66EA25AA2924A73100898D53 /* Carer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EA25A92924A73100898D53 /* Carer.storyboard */; };
+		66F7FD18292729BE007BEA35 /* MedicineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD17292729BE007BEA35 /* MedicineTableViewController.swift */; };
+		66F7FD1A29277523007BEA35 /* MedicineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD1929277523007BEA35 /* MedicineTableViewCell.swift */; };
+		66F7FD1E2927BA75007BEA35 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD1D2927BA75007BEA35 /* ReminderTableViewCell.swift */; };
+		66F7FD202927BB67007BEA35 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD1F2927BB67007BEA35 /* ReminderTableViewController.swift */; };
+		66F7FD2429291DFD007BEA35 /* GreetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD2329291DFD007BEA35 /* GreetingTableViewController.swift */; };
+		66F7FD2629291E33007BEA35 /* GreetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7FD2529291E33007BEA35 /* GreetingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66152FDF29614EDE00F946C6 /* Elder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Elder.storyboard; sourceTree = "<group>"; };
+		66152FE129614EEC00F946C6 /* ElderGreeting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ElderGreeting.storyboard; sourceTree = "<group>"; };
+		66152FE5296177EF00F946C6 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		66152FE72961C9B200F946C6 /* NewMedicine2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedicine2Controller.swift; sourceTree = "<group>"; };
+		66152FE92962A01900F946C6 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		66367BC22922822A008924FB /* MEDReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEDReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66367BC52922822A008924FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66367BC72922822A008924FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		66367BC92922822A008924FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66367BCC2922822A008924FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		66367BCF2922822A008924FB /* MEDReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEDReminder.xcdatamodel; sourceTree = "<group>"; };
 		66367BD12922822A008924FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66367BD42922822A008924FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66367BD62922822A008924FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6668FEF729604EB400741B9C /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		6668FEFB2960831B00741B9C /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		6668FEFD2960832700741B9C /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		6668FF042960962100741B9C /* GreetingViewDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewDiffableDataSource.swift; sourceTree = "<group>"; };
+		6668FF0F2960A58000741B9C /* ReminderViewDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewDiffableDataSource.swift; sourceTree = "<group>"; };
+		6668FF112960A59500741B9C /* MedicineViewDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewDiffableDataSource.swift; sourceTree = "<group>"; };
+		6668FF1E29613D4E00741B9C /* ElderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderTableViewCell.swift; sourceTree = "<group>"; };
+		6668FF2029613DA400741B9C /* ElderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderTableViewController.swift; sourceTree = "<group>"; };
+		6668FF2229613E8600741B9C /* Elder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder.swift; sourceTree = "<group>"; };
+		66D466B02934321800A94163 /* Medicine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Medicine.storyboard; sourceTree = "<group>"; };
+		66D466B32934329900A94163 /* Reminder.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reminder.storyboard; sourceTree = "<group>"; };
+		66D466B5293432B700A94163 /* Greeting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Greeting.storyboard; sourceTree = "<group>"; };
+		66D466B7295AE32000A94163 /* ElderMedicine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ElderMedicine.storyboard; sourceTree = "<group>"; };
+		66D466B9295B156800A94163 /* NewGreetingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGreetingController.swift; sourceTree = "<group>"; };
+		66D466BB295B2A0100A94163 /* NewReminderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderController.swift; sourceTree = "<group>"; };
+		66D466BD295B2A2600A94163 /* NewMedicineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedicineController.swift; sourceTree = "<group>"; };
+		66DD3FDF295B407C00C56D2B /* ElderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderController.swift; sourceTree = "<group>"; };
+		66EA25A92924A73100898D53 /* Carer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Carer.storyboard; sourceTree = "<group>"; };
+		66F7FD17292729BE007BEA35 /* MedicineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTableViewController.swift; sourceTree = "<group>"; };
+		66F7FD1929277523007BEA35 /* MedicineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTableViewCell.swift; sourceTree = "<group>"; };
+		66F7FD1D2927BA75007BEA35 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		66F7FD1F2927BB67007BEA35 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		66F7FD2329291DFD007BEA35 /* GreetingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTableViewController.swift; sourceTree = "<group>"; };
+		66F7FD2529291E33007BEA35 /* GreetingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +116,98 @@
 			children = (
 				66367BC52922822A008924FB /* AppDelegate.swift */,
 				66367BC72922822A008924FB /* SceneDelegate.swift */,
-				66367BC92922822A008924FB /* ViewController.swift */,
-				66367BCB2922822A008924FB /* Main.storyboard */,
+				6668FF062960A19E00741B9C /* Main */,
+				6668FEF629604E9300741B9C /* Model */,
+				66D466AD292CBFFA00A94163 /* Elder */,
+				66D466AB292CBDD100A94163 /* Carer */,
 				66367BD12922822A008924FB /* Assets.xcassets */,
 				66367BD32922822A008924FB /* LaunchScreen.storyboard */,
 				66367BD62922822A008924FB /* Info.plist */,
-				66367BCE2922822A008924FB /* MEDReminder.xcdatamodeld */,
 			);
 			path = MEDReminder;
+			sourceTree = "<group>";
+		};
+		6668FEF629604E9300741B9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6668FF2229613E8600741B9C /* Elder.swift */,
+				6668FEF729604EB400741B9C /* Greeting.swift */,
+				6668FEFB2960831B00741B9C /* Reminder.swift */,
+				6668FEFD2960832700741B9C /* Medicine.swift */,
+				6668FF042960962100741B9C /* GreetingViewDiffableDataSource.swift */,
+				6668FF0F2960A58000741B9C /* ReminderViewDiffableDataSource.swift */,
+				6668FF112960A59500741B9C /* MedicineViewDiffableDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6668FF062960A19E00741B9C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				66367BCB2922822A008924FB /* Main.storyboard */,
+				66367BC92922822A008924FB /* ViewController.swift */,
+				66152FE5296177EF00F946C6 /* AlertViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		66D466AB292CBDD100A94163 /* Carer */ = {
+			isa = PBXGroup;
+			children = (
+				66EA25A92924A73100898D53 /* Carer.storyboard */,
+				66152FE92962A01900F946C6 /* PersonalViewController.swift */,
+				66D466B22934324E00A94163 /* Greeting */,
+				66D466AF292CC0EF00A94163 /* Reminder */,
+				66D466AE292CC0DF00A94163 /* Medicine */,
+			);
+			path = Carer;
+			sourceTree = "<group>";
+		};
+		66D466AD292CBFFA00A94163 /* Elder */ = {
+			isa = PBXGroup;
+			children = (
+				66152FDF29614EDE00F946C6 /* Elder.storyboard */,
+				66152FE129614EEC00F946C6 /* ElderGreeting.storyboard */,
+				66D466B7295AE32000A94163 /* ElderMedicine.storyboard */,
+				6668FF2029613DA400741B9C /* ElderTableViewController.swift */,
+				6668FF1E29613D4E00741B9C /* ElderTableViewCell.swift */,
+				66DD3FDF295B407C00C56D2B /* ElderController.swift */,
+			);
+			path = Elder;
+			sourceTree = "<group>";
+		};
+		66D466AE292CC0DF00A94163 /* Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				66D466B02934321800A94163 /* Medicine.storyboard */,
+				66F7FD17292729BE007BEA35 /* MedicineTableViewController.swift */,
+				66F7FD1929277523007BEA35 /* MedicineTableViewCell.swift */,
+				66D466BD295B2A2600A94163 /* NewMedicineController.swift */,
+				66152FE72961C9B200F946C6 /* NewMedicine2Controller.swift */,
+			);
+			path = Medicine;
+			sourceTree = "<group>";
+		};
+		66D466AF292CC0EF00A94163 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				66D466B32934329900A94163 /* Reminder.storyboard */,
+				66F7FD1F2927BB67007BEA35 /* ReminderTableViewController.swift */,
+				66F7FD1D2927BA75007BEA35 /* ReminderTableViewCell.swift */,
+				66D466BB295B2A0100A94163 /* NewReminderController.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		66D466B22934324E00A94163 /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				66D466B5293432B700A94163 /* Greeting.storyboard */,
+				66F7FD2329291DFD007BEA35 /* GreetingTableViewController.swift */,
+				66F7FD2529291E33007BEA35 /* GreetingTableViewCell.swift */,
+				66D466B9295B156800A94163 /* NewGreetingController.swift */,
+			);
+			path = Greeting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +268,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66152FE229614EEC00F946C6 /* ElderGreeting.storyboard in Resources */,
+				66D466B12934321800A94163 /* Medicine.storyboard in Resources */,
 				66367BD52922822A008924FB /* LaunchScreen.storyboard in Resources */,
+				66EA25AA2924A73100898D53 /* Carer.storyboard in Resources */,
 				66367BD22922822A008924FB /* Assets.xcassets in Resources */,
 				66367BCD2922822A008924FB /* Main.storyboard in Resources */,
+				66D466B8295AE32000A94163 /* ElderMedicine.storyboard in Resources */,
+				66152FE029614EDE00F946C6 /* Elder.storyboard in Resources */,
+				66D466B42934329900A94163 /* Reminder.storyboard in Resources */,
+				66D466B6293432B700A94163 /* Greeting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +288,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66367BD02922822A008924FB /* MEDReminder.xcdatamodeld in Sources */,
+				6668FEFC2960831B00741B9C /* Reminder.swift in Sources */,
+				6668FEFE2960832700741B9C /* Medicine.swift in Sources */,
+				6668FF1F29613D4E00741B9C /* ElderTableViewCell.swift in Sources */,
+				66F7FD2429291DFD007BEA35 /* GreetingTableViewController.swift in Sources */,
+				66D466BE295B2A2600A94163 /* NewMedicineController.swift in Sources */,
+				66F7FD18292729BE007BEA35 /* MedicineTableViewController.swift in Sources */,
+				66F7FD1A29277523007BEA35 /* MedicineTableViewCell.swift in Sources */,
+				66DD3FE0295B407C00C56D2B /* ElderController.swift in Sources */,
 				66367BCA2922822A008924FB /* ViewController.swift in Sources */,
+				6668FF2329613E8600741B9C /* Elder.swift in Sources */,
+				66D466BA295B156800A94163 /* NewGreetingController.swift in Sources */,
+				66152FE82961C9B200F946C6 /* NewMedicine2Controller.swift in Sources */,
+				66F7FD1E2927BA75007BEA35 /* ReminderTableViewCell.swift in Sources */,
+				6668FF2129613DA400741B9C /* ElderTableViewController.swift in Sources */,
+				66F7FD202927BB67007BEA35 /* ReminderTableViewController.swift in Sources */,
 				66367BC62922822A008924FB /* AppDelegate.swift in Sources */,
+				6668FF122960A59500741B9C /* MedicineViewDiffableDataSource.swift in Sources */,
+				66D466BC295B2A0100A94163 /* NewReminderController.swift in Sources */,
+				6668FF052960962100741B9C /* GreetingViewDiffableDataSource.swift in Sources */,
+				66152FE6296177EF00F946C6 /* AlertViewController.swift in Sources */,
+				66F7FD2629291E33007BEA35 /* GreetingTableViewCell.swift in Sources */,
+				66152FEA2962A01900F946C6 /* PersonalViewController.swift in Sources */,
+				6668FF102960A58000741B9C /* ReminderViewDiffableDataSource.swift in Sources */,
 				66367BC82922822A008924FB /* SceneDelegate.swift in Sources */,
+				6668FEF829604EB400741B9C /* Greeting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +465,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +492,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,19 +528,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		66367BCE2922822A008924FB /* MEDReminder.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				66367BCF2922822A008924FB /* MEDReminder.xcdatamodel */,
-			);
-			currentVersion = 66367BCF2922822A008924FB /* MEDReminder.xcdatamodel */;
-			path = MEDReminder.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 66367BBA29228229008924FB /* Project object */;
 }
